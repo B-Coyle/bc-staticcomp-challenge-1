@@ -11,16 +11,20 @@ body {
   display: inline-block;
   flex-direction: row;
   width: 100%;
+  color: #505160;
 }
 
 .nav {
   display: flex;
-  padding: 3px 5px;
+  padding: 0px 18px;
+  font-size: 15pt;
 }
 
 .user-name {
   float:right;
-  padding: 0 5px;
+  padding: 0 15px;
+  font-size: 17pt;
+  margin: 5px;
 }
 
 .icon {
@@ -31,7 +35,7 @@ body {
 }
 
 h1 {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .admin-icon {
@@ -48,8 +52,8 @@ h1 {
   display: flex;
   flex: 2; 
   position: absolute;
-  max-width: 150px;
-  padding: 20px 10px;
+  max-width: 200px;
+  padding: 0 10px;
   right: 0;
 }
 
@@ -57,32 +61,41 @@ h1 {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  flex: 6;
-  justify-content: inline;
-  margin: 10px;
-  padding: 5px;
-  width: 100%;
-}
-
-/*don't forget to try adding the image URL*/
-.card-container {
-  display: flex;
+  flex: 4;
   justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 10px 25px 0px 10px;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .card{
-  /*min-width: 23%;*/
   border: solid 2px #89da59;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 5px 5px;
-  padding: 0;
+  box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.2);
+  margin: 5px 3px;
+  position: relative;
+}
+
+.card-text {
+  color: #505160;
+  padding: 8px;
+}
+
+.card-top {
   position: relative;
 }
 
 .views{
-  float: right;
+  margin: 0 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.share-icon {
+  height: 60px;
+  margin: 10px;
+  position: absolute;
+  top: 10px;
 }
 
 .cardText {
@@ -90,7 +103,7 @@ h1 {
 }
 
 .date {
-  font-size: small;
+  font-size: 9pt;
 }
 
 .author-image {
@@ -111,22 +124,32 @@ h4 {
   position: relative;
   top: 0;
   right: 0;
-/*  bottom: 5px;*/
-}
-
-.share-icon {
-  height: 60px;
-  margin: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .website-box {
   height: 40px;
-  width: 200px;
+  width: 210px;
+  text-align: center;
   background-color: rgba(20,27,28,0.1);
-  padding: 10px;
+  padding: 5px;
   word-wrap: break-word;
   margin: 20px;
+}
+
+header h4:hover {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+nav p:hover {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+/*media query*/
+@media (max-width: 768px) {
+  nav {
+    margin-right: 0;
+  }
+  }
 }
