@@ -1,0 +1,132 @@
+body {
+  background-color: #80bd9e;
+  margin: 0;
+  font: "Times New Roman";
+}
+
+.header {
+  background-color: #f98866;
+  color: #2a3132;
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  padding: 3px 5px;
+}
+
+.user-name {
+  float:right;
+  padding: 0 5px;
+}
+
+.icon {
+  float: inline right;
+  height: 20px;
+  width: 20px;
+  padding: 0 10px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.admin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.drop-down-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.brand-logo {
+  display: flex;
+  flex: 2; 
+  position: absolute;
+  max-width: 150px;
+  padding: 20px 10px;
+  right: 0;
+}
+
+/*Cards section starting at Shares*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 6;
+  justify-content: inline;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+/*don't forget to try adding the image URL*/
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px 25px 0px 10px;
+}
+
+.card{
+  /*min-width: 23%;*/
+  border: solid 2px #89da59;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 5px 5px;
+  padding: 0;
+  position: relative;
+}
+
+.views{
+  float: right;
+}
+
+.cardText {
+  padding: 10px;
+}
+
+.date {
+  font-size: small;
+}
+
+.author-image {
+  height: 200px;
+  width: 300px;
+  position: relative;
+}
+
+#image-top1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+  background-image: url('Images/book.jpg');
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+}
+
+h4 {
+  position: relative;
+  top: 0;
+  right: 0;
+/*  bottom: 5px;*/
+}
+
+.share-icon {
+  height: 60px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.website-box {
+  height: 40px;
+  width: 200px;
+  background-color: rgba(20,27,28,0.1);
+  padding: 10px;
+  word-wrap: break-word;
+  margin: 20px;
+}
