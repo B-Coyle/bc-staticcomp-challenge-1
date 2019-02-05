@@ -8,4 +8,4 @@
 ![Static Comp 1 - Before]<img src="StaticComp1-given comp.png">
 
 
-![Static Comp 1 - My Version]<img src="StaticComp1-myversion.png"
+![Static Comp 1 - My Version]<img src="StaticComp1-myversion.png>
